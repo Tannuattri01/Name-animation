@@ -1,0 +1,28 @@
+body {
+    background-attachment:#A35C7A;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+  }
+  .name-container {
+    margin-top: 20px;
+    font-size: 80px;
+    font-weight: bold;
+    transition: transform 0.5s, opacity 0.5s;
+  }
+  .hidden {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  .remove-button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #45201d91;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  .remove-button:hover {
+    background-color: #45201d66;
+  }
